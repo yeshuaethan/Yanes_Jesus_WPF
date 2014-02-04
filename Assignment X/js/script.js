@@ -2,4 +2,4 @@
 //2/4/14
 //Assignment X
 
-alert("This is in the js file");
+alert("Hello World");
