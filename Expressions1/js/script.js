@@ -1,3 +1,12 @@
+//Expressions - Expressions with Arrays
+
+
+var orangeBins = [234, 567, 883];
+
+var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
+console.log(total);
+
+/*
 //Expressions - PEMDAS - The Order of Operations
 
 var quiz1 = 87;
@@ -14,7 +23,7 @@ var width = 6;
 var perimeter = lenght * 2 + width * 2;
 console.log(perimeter);
 
-/*
+
 //Expressions - Modulo Operator
 
 var remainder = 32 % 10;
