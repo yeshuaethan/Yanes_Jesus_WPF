@@ -1,3 +1,10 @@
+//Expressions - Modulo Operator
+
+var remainder = 32 % 10;
+console.log(remainder);
+
+
+/*
 //Expressions - Arithmetic Operations
 
 //area of the triangle is half of the width times the height
@@ -6,7 +13,7 @@ var height = 7;
 var area = width * height/2;
 console.log(area);
 
-/*
+
 //Expressions - Age Example
 
 var yearBorn = 1974;
