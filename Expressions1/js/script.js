@@ -1,3 +1,19 @@
+//Expressions - Concatenating Strings
+/*
+var firstName = "Jesus";
+var lastName = "Yanes";
+var fullName = firstName +" "+ lastName;
+
+console.log(fullName);
+*/
+
+var a = 6;
+var b = 7;
+
+var result = a + b;
+console.log(result);
+
+/*
 //Expressions - Expressions with Arrays
 
 
@@ -6,7 +22,7 @@ var orangeBins = [234, 567, 883];
 var total = orangeBins[0] + orangeBins[1] + orangeBins[2];
 console.log(total);
 
-/*
+
 //Expressions - PEMDAS - The Order of Operations
 
 var quiz1 = 87;
