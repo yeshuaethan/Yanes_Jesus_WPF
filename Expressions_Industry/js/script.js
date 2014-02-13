@@ -26,3 +26,5 @@ alert(phrase);
 var months = prompt("How many months do you wish to calculate?");
 var rateWork = prompt("Please enter the hours required to complete a Web Deployment.");
 var breakRate = prompt("Please enter the amount of hours you take for breaks in a week.");
+
+var webDeploymentPer = (weekTime - breakRate)/rateWork; 
