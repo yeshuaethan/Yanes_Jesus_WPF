@@ -21,3 +21,6 @@ var bodyFatPercent = (125 - 93.29) * 100 / 125;
 
 console.log(bodyFatPercent);
 */
+
+var message = "Welcome to the Bodyfat Percentage Calculator. \nBefore you continue please gather the necessary information to continue. \nWeight, Hip Circumference, Waist Circumference, Forearm Circumference, and Wrist Circumference.";
+alert(message);
