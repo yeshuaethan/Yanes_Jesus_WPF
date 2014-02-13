@@ -24,3 +24,6 @@ console.log(bodyFatPercent);
 
 var message = "Welcome to the Bodyfat Percentage Calculator. \nBefore you continue please gather the necessary information to continue. \nWeight, Hip Circumference, Waist Circumference, Forearm Circumference, and Wrist Circumference.";
 alert(message);
+
+var bodyWeight = prompt("Please enter your Bodyweight in lbs.");
+var hip = prompt("Please enter your Hip Circumference in inches.");
