@@ -27,3 +27,6 @@ alert(message);
 
 var bodyWeight = prompt("Please enter your Bodyweight in lbs.");
 var hip = prompt("Please enter your Hip Circumference in inches.");
+var waist = prompt("Please enter your Waist Circumference  in inches.");
+var forearm = prompt("Please enter your Forearm Circumference in inches.");
+var wrist = prompt("Please enter your Wrist Circumference in inches.");
