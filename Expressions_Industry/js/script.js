@@ -17,3 +17,5 @@ var webDeploymentPer = (40 - 5)/2;
 var result = webDeploymentPer * 4;
 
 console.log(result);
+
+var weekTime = 40; 
