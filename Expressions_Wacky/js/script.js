@@ -39,3 +39,6 @@ var fifth = hip * 0.249;
 var sixth = forearm * 0.434;
 var result1 = second + third;
 var result2 = result1 - fourth;
+var result3 = result2 - fifth;
+var leanBodyMass = sixth + result3;
+var bodyFatPercent = (bodyWeight - leanBodyMass) * 100 / bodyWeight;
