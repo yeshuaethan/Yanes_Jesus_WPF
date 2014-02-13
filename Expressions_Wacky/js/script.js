@@ -34,3 +34,6 @@ var wrist = prompt("Please enter your Wrist Circumference in inches.");
 var first = bodyWeight * 0.732;
 var second = first + 8.987;
 var third = wrist / 3.14;
+var fourth = waist * 0.157;
+var fifth = hip * 0.249;
+var sixth = forearm * 0.434;
