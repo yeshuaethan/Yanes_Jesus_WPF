@@ -32,3 +32,6 @@ var result = webDeploymentPer * (months * 4);
 
 var show = "The amount of Web Deployments that you will finish in a month(s) is:" + " " + result + " " + "Web Deployments";
 alert(show);
+
+var message = "If you wish to recalculate, please refresh the web page.";
+alert(message);
