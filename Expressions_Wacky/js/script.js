@@ -42,3 +42,6 @@ var result2 = result1 - fourth;
 var result3 = result2 - fifth;
 var leanBodyMass = sixth + result3;
 var bodyFatPercent = (bodyWeight - leanBodyMass) * 100 / bodyWeight;
+
+var show = "Your total Bodyfat Percent is:" + " " + bodyFatPercent;
+alert(show);
