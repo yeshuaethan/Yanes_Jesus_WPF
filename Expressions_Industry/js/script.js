@@ -29,3 +29,6 @@ var breakRate = prompt("Please enter the amount of hours you take for breaks in 
 
 var webDeploymentPer = (weekTime - breakRate)/rateWork; 
 var result = webDeploymentPer * (months * 4);
+
+var show = "The amount of Web Deployments that you will finish in a month(s) is:" + " " + result + " " + "Web Deployments";
+alert(show);
