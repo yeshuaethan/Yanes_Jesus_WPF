@@ -35,3 +35,4 @@ var amount = prompt("How many scoops of protein powder do you add to your shake(
 
 var first = dailyConsumption * amount; 
 var second = (first * workoutDayWeek) * weekMonth; 
+var result = second * months;
