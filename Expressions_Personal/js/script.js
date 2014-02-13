@@ -39,3 +39,6 @@ var result = second * months;
 
 var show = "The amount of protein powder you consume in a month(s) is:" + " " + result + " " + "cups";
 alert(show);
+
+var message = "If you wish to recalculate, please refresh the web page.";
+alert(message);
