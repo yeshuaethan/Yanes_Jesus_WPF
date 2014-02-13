@@ -11,3 +11,12 @@
 //I will tell you how much protein powder you consume in cups, per months you put in. (You will have convert cups to pounds yourself.)
 //Taking into account that there are 4 weeks in a month and also the amount of days in a week that you workout (Example: 5).
 //How much protein powder do I need every months?
+
+var dailyConsumption = 1;
+var consumptionAmount = 2;
+var months = 5;
+var amount = 1 * 2;
+var monthTotal = (5 * amount) * 2;
+var neededPeriod = monthTotal * months;
+
+console.log(neededPeriod);
