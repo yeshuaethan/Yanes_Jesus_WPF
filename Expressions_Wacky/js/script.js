@@ -37,3 +37,5 @@ var third = wrist / 3.14;
 var fourth = waist * 0.157;
 var fifth = hip * 0.249;
 var sixth = forearm * 0.434;
+var result1 = second + third;
+var result2 = result1 - fourth;
