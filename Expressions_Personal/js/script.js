@@ -22,3 +22,5 @@ var neededPeriod = monthTotal * months;
 
 console.log(neededPeriod);
 */
+
+var weekMonth = 4;
