@@ -17,3 +17,5 @@ var result2 = 102.397 - 3.768;
 var result3 = 98.629 - 9.462;
 var leanBodyMass = 4.123 + 89.167;
 var bodyFatPercent = (125 - 93.29) * 100 / 125;
+
+console.log(bodyFatPercent);
