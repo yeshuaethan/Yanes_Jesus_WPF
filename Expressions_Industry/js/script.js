@@ -19,3 +19,6 @@ var result = webDeploymentPer * 4;
 console.log(result);
 
 var weekTime = 40; 
+
+var phrase = "You are working a 40 hour week. How many Web Deployments can be finished in a month(s)?";
+alert(phrase);
