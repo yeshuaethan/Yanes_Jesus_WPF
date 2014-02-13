@@ -6,6 +6,7 @@
 // The formulas below are just approximations. 
 // The goal here is to have a point of reference from which to work. 
 
+/*
 var first = 125 * 0.732;
 var second = 91.5 + 8.987;
 var third = 6 / 3.14;
@@ -19,3 +20,4 @@ var leanBodyMass = 4.123 + 89.167;
 var bodyFatPercent = (125 - 93.29) * 100 / 125;
 
 console.log(bodyFatPercent);
+*/
