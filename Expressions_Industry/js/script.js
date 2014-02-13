@@ -27,7 +27,7 @@ var months = prompt("How many months do you wish to calculate?");
 var rateWork = prompt("Please enter the hours required to complete a Web Deployment.");
 var breakRate = prompt("Please enter the amount of hours you take for breaks in a week.");
 
-var webDeploymentPer = (weekTime - breakRate)/rateWork; 
+var webDeploymentPer = (weekTime - breakRate)/rateWork; //There are 40 work hours in a week, minus the amount of time you take in breaks, divided by the time it takes you to complete a Web Deployment.
 var result = webDeploymentPer * (months * 4);
 
 var show = "The amount of Web Deployments that you will finish in a month(s) is:" + " " + result + " " + "Web Deployments";
