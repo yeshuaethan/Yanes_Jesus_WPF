@@ -50,4 +50,4 @@ var message = "What categorie do you fall under? \nBody-Fat % Categories \nEssen
 alert(message); // This message shows the different bodyfat categories you can fall under.
 
 var message = "If you wish to calculate again, please refreash page.";
-alert(message);
+alert(message); // Message simply tells the user to refresh page in order to recalculate.
