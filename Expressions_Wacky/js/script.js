@@ -31,17 +31,17 @@ var waist = prompt("Please enter your Waist Circumference  in inches.");
 var forearm = prompt("Please enter your Forearm Circumference in inches.");
 var wrist = prompt("Please enter your Wrist Circumference in inches.");
 
-var first = bodyWeight * 0.732;
-var second = first + 8.987;
-var third = wrist / 3.14;
-var fourth = waist * 0.157;
-var fifth = hip * 0.249;
-var sixth = forearm * 0.434;
-var result1 = second + third;
-var result2 = result1 - fourth;
-var result3 = result2 - fifth;
-var leanBodyMass = sixth + result3;
-var bodyFatPercent = (bodyWeight - leanBodyMass) * 100 / bodyWeight;
+var first = bodyWeight * 0.732; // Multiply your bodyweight by 0.732. Bodyweight x .0732 = first.
+var second = first + 8.987; // Add the result (first) to 8.987. first + 8.987= second.
+var third = wrist / 3.14; // Divide your wrist circumference by 3.14. Wrist divided by 3.14 = third.
+var fourth = waist * 0.157; // Multiply your waist measurement by 0.157. Waist x 0.157 = fourth.
+var fifth = hip * 0.249; // Multiply your hip measurement by 0.249. Hip x 0.249 = fifth.
+var sixth = forearm * 0.434; // Multiply your forearm measurement by 0.434. Forearm x 0.434 = sixth.
+var result1 = second + third; // Add results second & third. Result second + Result third = result1.
+var result2 = result1 - fourth; // Subtract result1 from fourth. result1 - fourth = result2.
+var result3 = result2 - fifth; // Subtract result2 from fifth. result2 - fifth = result3.
+var leanBodyMass = sixth + result3; // Add sixth and result3. The result is your lean body mass (your fat free weight) sixth + result3 = leanBodyMass.
+var bodyFatPercent = (bodyWeight - leanBodyMass) * 100 / bodyWeight; // Subtract your bodyweight from your leanBodyMass. Once you get the result, multiply that number by 100. Once you get this result, divide it by your bodyweight. Bodyweight-Lean Body Mass) x 100) divided by your bodyweight, gives you you total body fat percent.
 
 var show = "Your total Bodyfat Percent is:" + " " + bodyFatPercent; // This alert will show the final bodyfat percent.
 alert(show);
