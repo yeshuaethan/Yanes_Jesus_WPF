@@ -10,6 +10,7 @@
 //You take a total of an hour break a day, which sums to 5 hrs a week.
 //How many Web Deployments can be finished in a month?
 
+/*
 var month = 1;
 var workTime = 40;
 var breakTime = 5;
@@ -17,6 +18,7 @@ var webDeploymentPer = (40 - 5)/2;
 var result = webDeploymentPer * 4;
 
 console.log(result);
+*/
 
 var weekTime = 40; //Average work hours in a week.
 
