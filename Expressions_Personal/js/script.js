@@ -27,3 +27,6 @@ var weekMonth = 4;
 
 var phrase = "This calculator will help you find out how much protein powder you'll need in a month(s) worth, using the unit of cups.";
 alert(phrase);
+
+var months = prompt("How many months do you wish to calculate?");
+var workoutDayWeek = prompt ("How many days a week do you workout?");
