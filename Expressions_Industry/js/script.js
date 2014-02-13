@@ -24,3 +24,4 @@ var phrase = "You are working a 40 hour week. How many Web Deployments can be fi
 alert(phrase);
 
 var months = prompt("How many months do you wish to calculate?");
+var rateWork = prompt("Please enter the hours required to complete a Web Deployment.");
