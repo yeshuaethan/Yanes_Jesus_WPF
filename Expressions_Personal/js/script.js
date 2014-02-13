@@ -33,7 +33,7 @@ var workoutDayWeek = prompt ("How many days a week do you workout?");
 var dailyConsumption = prompt("How many times a day do you drink your protein shake(s)?");
 var amount = prompt("How many scoops of protein powder do you add to your shake(s)?");
 
-var first = dailyConsumption * amount; 
+var first = dailyConsumption * amount; //Depending on your input for daily consumpion and amount of protein scoops you use daily, this will equal you total daily scoops consuption.
 var second = (first * workoutDayWeek) * weekMonth; 
 var result = second * months;
 
