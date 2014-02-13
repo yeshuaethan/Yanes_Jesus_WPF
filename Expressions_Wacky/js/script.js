@@ -45,3 +45,6 @@ var bodyFatPercent = (bodyWeight - leanBodyMass) * 100 / bodyWeight;
 
 var show = "Your total Bodyfat Percent is:" + " " + bodyFatPercent;
 alert(show);
+
+var message = "What categorie do you fall under? \nBody-Fat % Categories \nEssential % of Fat 10 - 13% \nTypical Athlete 14 - 20 \nPhysically Fit 21 - 24 \nAcceptable 25 - 31 \nObese 32% or more";
+alert(message);
