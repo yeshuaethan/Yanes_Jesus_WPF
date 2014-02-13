@@ -22,3 +22,5 @@ var weekTime = 40;
 
 var phrase = "You are working a 40 hour week. How many Web Deployments can be finished in a month(s)?";
 alert(phrase);
+
+var months = prompt("How many months do you wish to calculate?");
