@@ -3,3 +3,4 @@
 // Conditionals Industry Assignment
 
 // Assisting with pricing in web design
+// Lets get all the information we need to get started including hourly wage, minimum quote, project name, time and costs.
