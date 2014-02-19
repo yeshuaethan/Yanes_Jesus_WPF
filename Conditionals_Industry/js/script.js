@@ -7,8 +7,8 @@
 
 var hourlyWage = prompt("How much would you like to get payed per hour?"); 
 var minimumQuote = prompt("What is the minimum quote you will allow to start the project?");
-var projectName = prompt
-var estimatedTime = prompt
+var projectName = prompt("What is the name of this project?"); 
+var estimatedTime = prompt("How much time do you estimate you will spend on this project in hours?");
 var costs = prompt
 
 var quote = hourlyWage * estimatedTime -  costs;
