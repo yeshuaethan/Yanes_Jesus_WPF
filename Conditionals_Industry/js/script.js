@@ -30,3 +30,9 @@ if(quote >= minimumQuote){ //Check to see if project meets our minimum standard 
     }
 
 	var start = confirm("Has customer already payed?");
+
+	if (start === true) {
+        console.log("Go ahead and add this project to your tasks");
+    } else {
+        console.log("Discuss this project with your client, take a payment and add it to your tasks.");
+    }
