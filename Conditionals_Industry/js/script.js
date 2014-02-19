@@ -10,3 +10,5 @@ var minimumQuote = prompt
 var projectName = prompt
 var estimatedTime = prompt
 var costs = prompt
+
+var quote = hourlyWage * estimatedTime -  costs;
