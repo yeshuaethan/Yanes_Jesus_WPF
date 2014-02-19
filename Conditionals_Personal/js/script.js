@@ -10,5 +10,5 @@ if (speed > 60){
     speed = speed / 60;
     }
 
-var timeLeftToWork = prompt
+var timeLeftToWork = prompt("How many hours do you have until work?");
 var traffic = confirm
