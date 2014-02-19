@@ -19,3 +19,10 @@ var timeOfTrip = speed * distance / 60;
 if (traffic === true){
     traffic = traffic*2;
 }
+
+if (timeOfTrip > 0){
+    if (timeOfTrip <= timeLeftToWork){
+        console.log
+    } else {
+        console.log(username + ", your are going to be late for work.");
+    }
