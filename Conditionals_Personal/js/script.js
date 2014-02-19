@@ -4,4 +4,4 @@
 
 var username = prompt("Hello there, please enter your name.");
 var distance = prompt("Hello " + username + ". How many miles are your driving to work today?");
-var speed = prompt
+var speed = prompt("How many miles per hour would you say you are driving?");
