@@ -14,7 +14,7 @@ var costs = prompt("And how much money will you be spending on production?");
 var quote = hourlyWage * estimatedTime - costs;
 
 
-if(quote >= minimumQuote){ //Check to see if project means our minimum standard to get started
+if(quote >= minimumQuote){ //Check to see if project meets our minimum standard to get started
 
     if (quote > 500 ) {
         console.log("It would seem this would be a great project to get started on as soon as possible.");
