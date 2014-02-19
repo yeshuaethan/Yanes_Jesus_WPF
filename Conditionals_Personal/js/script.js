@@ -15,6 +15,7 @@ var traffic = confirm("And would you say traffic is a bit rough today?");
 
 var timeOfTrip = speed * distance / 60;
 
+// Double estimated travel time if traffic is bad.
 if (traffic === true){
     traffic = traffic*2;
 }
