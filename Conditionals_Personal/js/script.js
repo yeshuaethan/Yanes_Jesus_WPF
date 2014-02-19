@@ -12,3 +12,5 @@ if (speed > 60){
 
 var timeLeftToWork = prompt("How many hours do you have until work?");
 var traffic = confirm("And would you say traffic is a bit rough today?");
+
+var timeOfTrip = speed * distance / 60;
