@@ -9,3 +9,6 @@ var speed = prompt("How many miles per hour would you say you are driving?");
 if (speed > 60){
     speed = speed / 60;
     }
+
+var timeLeftToWork = prompt
+var traffic = confirm
