@@ -22,3 +22,9 @@ if(quote >= minimumQuote){ //Check to see if project meets our minimum standard 
         console.log("Estimated Hours: " + estimatedTime);
         console.log("Estimated Profit: " + quote);
     }
+    if (quote > 250 && quote < 500) {
+        console.log("This project is a good filler project and may require longer time to complete as it has less priority.");
+        console.log("Project Name: " + projectName);
+        console.log("Estimated Hours: " + estimatedTime);
+        console.log("Estimated Profit: " + quote);
+    }
