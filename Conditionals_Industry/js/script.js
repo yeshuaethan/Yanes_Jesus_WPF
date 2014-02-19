@@ -15,3 +15,10 @@ var quote = hourlyWage * estimatedTime - costs;
 
 
 if(quote >= minimumQuote){ //Check to see if project means our minimum standard to get started
+
+    if (quote > 500 ) {
+        console.log("It would seem this would be a great project to get started on as soon as possible.");
+        console.log("Project Name: " + projectName);
+        console.log("Estimated Hours: " + estimatedTime);
+        console.log("Estimated Profit: " + quote);
+    }
