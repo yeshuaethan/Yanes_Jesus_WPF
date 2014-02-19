@@ -22,7 +22,7 @@ if (traffic === true){
 
 if (timeOfTrip > 0){
     if (timeOfTrip <= timeLeftToWork){
-        console.log
+        console.log("You have enough time to get to work.");
     } else {
         console.log(username + ", your are going to be late for work.");
     }
