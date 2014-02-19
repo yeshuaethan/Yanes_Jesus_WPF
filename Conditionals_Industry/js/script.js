@@ -12,3 +12,6 @@ var estimatedTime = prompt("How much time do you estimate you will spend on this
 var costs = prompt("And how much money will you be spending on production?");
 
 var quote = hourlyWage * estimatedTime - costs;
+
+
+if(quote >= minimumQuote){ //Check to see if project means our minimum standard to get started
