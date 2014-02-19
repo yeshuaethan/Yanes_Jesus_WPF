@@ -37,6 +37,6 @@ if(quote >= minimumQuote){ //Check to see if project meets our minimum standard 
         console.log("Discuss this project with your client, take a payment and add it to your tasks.");
     }
 } else { 
-    
+    //In the case the quote didn't calculate correct
     console.log("It seems you may have made an error in entering in your information before OR the project does not meet your minimum requirements. Please check your numbers and try again.");    
 }
