@@ -26,3 +26,6 @@ if (timeOfTrip > 0){
     } else {
         console.log(username + ", your are going to be late for work.");
     }
+} else {
+    console.log("It seems my calculations are off. Please check your numbers and try again.");
+}
