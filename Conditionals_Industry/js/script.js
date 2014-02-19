@@ -28,3 +28,5 @@ if(quote >= minimumQuote){ //Check to see if project meets our minimum standard 
         console.log("Estimated Hours: " + estimatedTime);
         console.log("Estimated Profit: " + quote);
     }
+
+	var start = confirm("Has customer already played?");
