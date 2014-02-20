@@ -2,4 +2,4 @@
 // February 20, 2014
 // Wacky Conditional Script
 
-confirm = prompt 
+confirm = prompt ("Hi there, random question- Did you have coffee today?");
