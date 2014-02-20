@@ -3,3 +3,4 @@
 // Wacky Conditional Script
 
 confirm = prompt ("Hi there, random question- Did you have coffee today?");
+console.log("Fascinating, I didn't, Can you guess why?");
