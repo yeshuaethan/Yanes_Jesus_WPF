@@ -20,4 +20,4 @@ if (reason == "money" || reason == "ad"|| reason == "million dollars"){
     console.log("Huh, I thought it was the million dollar ad I posted. I was going to give it to you. That's cool.");
 }
 
-var sight = prompt 
+var sight = prompt ("Well, I have to get going " + username + ". Will I see you again?");
