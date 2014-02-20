@@ -9,3 +9,4 @@ var coffee = prompt ("Why do you think I didn't have coffee");
 console.log("I apologize, I didn't hear you. Something is byting me.");
 
 var username = prompt ("What's your name?");
+console.log("Fascinating...");
