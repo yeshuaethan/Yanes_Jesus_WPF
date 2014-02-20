@@ -21,3 +21,9 @@ if (reason == "money" || reason == "ad"|| reason == "million dollars"){
 }
 
 var sight = prompt ("Well, I have to get going " + username + ". Will I see you again?");
+
+if (sight === true){
+    console.log("This script makes no sense, you clearly need coffee and donuts.");
+} else {
+    console.log("May the force be with you");
+}
