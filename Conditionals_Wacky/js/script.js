@@ -8,4 +8,4 @@ console.log("Fascinating, I didn't, Can you guess why?");
 var coffee = prompt ("Why do you think I didn't have coffee");
 console.log("I apologize, I didn't hear you. Something is byting me.");
 
-var username = prompt
+var username = prompt ("What's your name?");
