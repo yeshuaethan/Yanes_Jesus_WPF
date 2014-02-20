@@ -1,6 +1,7 @@
 // Jesus Yanes
 // February 20, 2014
 // Wacky Conditional Script
+// This script makes no sense; so I found it was a bit wacky...
 
 confirm = prompt ("Hi there, random question- Did you have coffee today?");
 console.log("Fascinating, I didn't, Can you guess why?");
