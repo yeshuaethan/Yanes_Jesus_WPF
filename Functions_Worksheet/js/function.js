@@ -17,3 +17,4 @@ function cumArea(a,p){
 	var area = a * p;
 	return area;
 }
+console.log("The circumference of the circle is "+circumf)
