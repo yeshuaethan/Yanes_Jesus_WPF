@@ -14,3 +14,4 @@ console.log("The area of a rectangle is "+total)
 
 var circumf = cumArea(8, 3.14159265);
 function cumArea(a,p){
+	var area = a * p;
