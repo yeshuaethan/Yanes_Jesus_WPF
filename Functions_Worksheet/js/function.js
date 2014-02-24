@@ -24,3 +24,5 @@ console.log("The circumference of the circle is "+circumf)
 var Stings = BeeStings(185, 8.6666667);
 function BeeStings(w,s){
 	var Stingers = w * s;
+	return Stingers;
+}
