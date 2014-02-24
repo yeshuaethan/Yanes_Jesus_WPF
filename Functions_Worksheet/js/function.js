@@ -11,3 +11,5 @@ function calcuArea(w, h){
 console.log("The area of a rectangle is "+total)
 
 // Circumference of a Circle
+
+var circumf = cumArea(8, 3.14159265);
