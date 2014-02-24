@@ -18,3 +18,5 @@ function cumArea(a,p){ //the storage bin area--the parameters
 	return area; //this is the function that puts out the info
 }
 console.log("The circumference of the circle is "+circumf)
+
+// Stung Project
