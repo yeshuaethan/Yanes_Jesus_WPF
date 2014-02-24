@@ -21,9 +21,9 @@ console.log("The circumference of the circle is "+circumf)
 
 // Stung Project
 
-var Stings = BeeStings(185, 8.6666667);
-function BeeStings(w,s){
-	var Stingers = w * s;
+var Stings = BeeStings(185, 8.6666667); //two arguments are presented here
+function BeeStings(w,s){ //this is the storage bin are for the parameters
+	var Stingers = w * s; //this is the calculation properties
 	return Stingers;
 }
 console.log("It takes "+Stings+" bee stings to kill this animal.")
