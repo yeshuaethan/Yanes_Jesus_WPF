@@ -26,3 +26,4 @@ function BeeStings(w,s){
 	var Stingers = w * s;
 	return Stingers;
 }
+console.log("It takes "+Stings+" bee stings to kill this animal.")
