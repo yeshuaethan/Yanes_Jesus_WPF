@@ -7,3 +7,5 @@ function calcuArea(w, h){
 	var area = w * h;
 	return area;
 }
+
+console.log("The area of a rectangle is "+total)
