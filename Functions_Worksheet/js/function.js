@@ -20,3 +20,5 @@ function cumArea(a,p){ //the storage bin area--the parameters
 console.log("The circumference of the circle is "+circumf)
 
 // Stung Project
+
+var Stings = BeeStings(185, 8.6666667);
