@@ -12,8 +12,8 @@ console.log("The area of a rectangle is "+total)
 
 // Circumference of a Circle
 
-var circumf = cumArea(8, 3.14159265);
-function cumArea(a,p){
+var circumf = cumArea(8, 3.14159265); //the argument area
+function cumArea(a,p){ //the storage bin area--the parameters
 	var area = a * p;
 	return area;
 }
