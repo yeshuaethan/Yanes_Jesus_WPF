@@ -9,3 +9,5 @@ function calcuArea(w, h){
 }
 
 console.log("The area of a rectangle is "+total)
+
+// Circumference of a Circle
