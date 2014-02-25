@@ -9,8 +9,8 @@ var rate = prompt ("Enter the annual rate of interest in decimals"); // Ask user
 var numberOfYears = prompt ("Enter the number of years the amount has been deposited"); // Ask user for the number of years the amount has been deposited
 var compYear = prompt ("Enter the number of times the interest is compounded yearly \n 1 for yearly; 2 for half a yearly; 3 for quarterly; 4 for monthly") // Ask user how many times is the interest rate compounded yearly
 
-if (compYear == 1){
+if (compYear == 1){ // If componded yearly use this formula
     var compYear = 1
     var cumulative = initialValue * Math.pow( (1+rate/compYear), numberOfYears * compYear); 
-console.log ("Your balance after " + numberOfYears + " years is approximately $" + cumulative);
+console.log ("Your balance after " + numberOfYears + " years is approximately $" + cumulative); // Output for yearly compounded interest
 }
