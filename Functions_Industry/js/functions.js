@@ -37,4 +37,4 @@ var message = ("Your balance after " + numberOfYears + " years is approximately 
 alert(message);
 
 var message = "If you wish to recalculate, please refreash page.";
-alert(message);
+alert(message); // Message simply tells the user to refresh page in order to recalculate.
