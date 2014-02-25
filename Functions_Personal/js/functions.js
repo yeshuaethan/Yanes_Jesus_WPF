@@ -12,7 +12,7 @@ var timeToSend = calculateTimeToSend(emails, scriptSpeed, emailCap);
 
 function calculateTimeToSend(email, time, cap){
     if (email < cap){
-        timeToSend = email / time;
+        timeToSend = email / time; // Calculate the hours it will take to send the bulk email out.
     } else {
         timeToSend = (email / time) * (email / cap); 
     }
