@@ -33,4 +33,10 @@ var total = calcArea(widthOfRoom, heightOfRoom);
 
 // Set the function
 // There are 3456 skittles per sq foot
+function calcArea (widthOfRoom, heightOfRoom) {
+// Calculating the area for the room W/H
+	var area = widthOfRoom * heightOfRoom * 3456;
+// Calculating the total area and multiplying it by 3456
+	return area;
+}
 
