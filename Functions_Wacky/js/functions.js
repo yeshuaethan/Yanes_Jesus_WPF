@@ -13,10 +13,10 @@ var color = prompt ("What color do you prefer more, red or blue?")// Finding the
 
 // If statement blue
 if(color == "blue"){
-
+// Ask how wide is the room
 var widthOfRoom = prompt ("How wide is the room?");
-
+// Get the hight of the room
 var heightOfRoom =prompt ("How high is the room");
-
+// Get the total of the room
 var total = calcArea(widthOfRoom, heightOfRoom);
 }
