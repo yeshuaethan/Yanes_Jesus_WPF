@@ -40,3 +40,7 @@ function calcArea (widthOfRoom, heightOfRoom) {
 	return area;
 }
 
+//Setting the alert for the total amount and correct color of skittles
+alert("It would take " + total + " " + color + " skittles  to fill the entire room!")
+console.log(total)
+
