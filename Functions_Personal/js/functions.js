@@ -4,3 +4,4 @@
 
 var gender = prompt
 var weight = prompt
+var height = prompt
