@@ -6,3 +6,4 @@
 
 var emails = prompt
 var scriptSpeed = prompt
+var emailCap = prompt
