@@ -18,3 +18,5 @@ function calculateTimeToSend(email, time, cap){
     }
     return timeToSend;
 }
+
+console.log("It will take aproximatelly " + timeToSend + " hours to send out " + emails + " emails.");
