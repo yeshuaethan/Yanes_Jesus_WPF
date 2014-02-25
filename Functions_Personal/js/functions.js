@@ -4,4 +4,4 @@
 
 var gender = prompt ("Gender? \n Enter 1 for Female or 2 for Male");
 var weight = prompt ("Enter your weight in pounds");
-var height = prompt
+var height = prompt ("Enter your height in inches");
