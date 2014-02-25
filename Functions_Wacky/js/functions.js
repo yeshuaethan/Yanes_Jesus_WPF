@@ -21,9 +21,10 @@ var heightOfRoom =prompt ("How high is the room");
 var total = calcArea(widthOfRoom, heightOfRoom);
 }
 
-// Else if statement that does not equal blue
-else if(color != "blue"){
+// Else if statement does not equal blue
+else if(color != "red"){
 var widthOfRoom = prompt ("How wide is the room?");
 var heightOfRoom =prompt ("How high is the room");
 var total = calcArea(widthOfRoom, heightOfRoom);
 }
+
