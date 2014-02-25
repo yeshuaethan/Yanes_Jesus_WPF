@@ -3,5 +3,5 @@
 // Functions Personal Assignment
 
 var gender = prompt ("Gender? \n Enter 1 for Female or 2 for Male");
-var weight = prompt
+var weight = prompt ("Enter your weight in pounds");
 var height = prompt
