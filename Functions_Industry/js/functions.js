@@ -15,10 +15,10 @@ if (compYear == 1){ // If componded yearly use this formula
 console.log ("Your balance after " + numberOfYears + " years is approximately $" + cumulative); // Output for yearly compounded interest
 }
 
-if (compYear == 2){
+if (compYear == 2){ // If compounded twice a year use this formula
     var compYear = 2
     var cumulative = initialValue * Math.pow( (1+rate/compYear), numberOfYears * compYear); 
-console.log ("Your balance after " + numberOfYears + " years is approximately $" + cumulative);
+console.log ("Your balance after " + numberOfYears + " years is approximately $" + cumulative); // Output for half yearly compounded interest
 }
 
 if (compYear == 3){ // If compounded quarterly use this formula
