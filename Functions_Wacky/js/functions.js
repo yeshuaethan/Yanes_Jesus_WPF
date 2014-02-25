@@ -44,3 +44,6 @@ function calcArea (widthOfRoom, heightOfRoom) {
 alert("It would take " + total + " " + color + " skittles  to fill the entire room!")
 console.log(total)
 
+var message = "If you wish to recalculate, please refreash page.";
+alert(message); // Message simply tells the user to refresh page in order to recalculate.
+
