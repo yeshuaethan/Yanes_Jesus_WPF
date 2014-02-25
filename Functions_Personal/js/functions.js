@@ -3,3 +3,4 @@
 // Functions Personal Assignment
 
 var gender = prompt
+var weight = prompt
