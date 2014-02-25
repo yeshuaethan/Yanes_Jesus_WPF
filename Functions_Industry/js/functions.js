@@ -32,3 +32,6 @@ if (compYear == 4){ // If compounded every month use this formula
     var cumulative = initialValue * Math.pow( (1+rate/compYear), numberOfYears * compYear); 
 console.log ("Your balance after " + numberOfYears + " years is approximately $" + cumulative);// Output for monthly compounded interest
 }
+
+var message = ("Your balance after " + numberOfYears + " years is approximately $" + cumulative); 
+alert(message);
