@@ -9,3 +9,12 @@ var scriptSpeed = prompt ("How many emails does your script send out per minute?
 var emailCap = prompt ("How many emails can your script send out per day?");
 
 var timeToSend = calculateTimeToSend(emails, scriptSpeed, emailCap);
+
+function calculateTimeToSend(email, time, cap){
+    if (email < cap){
+        timeToSend = email / time;
+    } else {
+        timeToSend = (email / time) * (email / cap); 
+    }
+    return timeToSend;
+}
