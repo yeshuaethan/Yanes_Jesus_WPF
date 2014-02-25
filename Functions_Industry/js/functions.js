@@ -35,3 +35,6 @@ console.log ("Your balance after " + numberOfYears + " years is approximately $"
 
 var message = ("Your balance after " + numberOfYears + " years is approximately $" + cumulative); 
 alert(message);
+
+var message = "If you wish to recalculate, please refreash page.";
+alert(message);
