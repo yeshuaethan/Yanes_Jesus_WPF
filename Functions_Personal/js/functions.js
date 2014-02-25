@@ -20,3 +20,4 @@ function calculateTimeToSend(email, time, cap){
 }
 
 console.log("It will take aproximatelly " + timeToSend + " hours to send out " + emails + " emails.");
+alert("It will take aproximatelly " + timeToSend + " hours to send out " + emails + " emails.");
