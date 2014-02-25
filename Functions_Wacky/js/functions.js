@@ -31,3 +31,6 @@ var heightOfRoom =prompt ("How high is the room");
 var total = calcArea(widthOfRoom, heightOfRoom);
 }
 
+// Set the function
+// There are 3456 skittles per sq foot
+
